@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AIzaSyAP-66RjX7mmrVQqfM8MpLaKtirpkiybEM';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY as string;
 
 export type SentryResult = {
   category: string;
